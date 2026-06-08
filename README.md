@@ -156,4 +156,4 @@ GET /api/cliente/obtener/poliza/{id}
 ---
 ## 👨‍💻 Autor
 
-Raymond García
+Raymond Anotnio García Espinoza
