@@ -154,3 +154,6 @@ GET /api/cliente/obtener/poliza/{id}
 ```
 
 ---
+## 👨‍💻 Autor
+
+Raymond García
