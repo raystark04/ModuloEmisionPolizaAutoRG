@@ -1,0 +1,80 @@
+[
+  {
+    "ContainingType": "ModuloEmisionPolizaAuto.Controllers.ClienteController",
+    "Method": "ObtenerCliente",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuloEmisionPolizaAuto.Controllers.ClienteController",
+    "Method": "CrearCliente",
+    "RelativePath": "api/Cliente/crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "ModuloEmisionPolizaAuto.Application.DTOs.CrearClienteCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuloEmisionPolizaAuto.Controllers.ClienteController",
+    "Method": "CrearPoliza",
+    "RelativePath": "api/Cliente/crear/poliza",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "ModuloEmisionPolizaAuto.Application.DTOs.CrearPolizaCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuloEmisionPolizaAuto.Controllers.ClienteController",
+    "Method": "ObtenerCoberturas",
+    "RelativePath": "api/Cliente/obtener/cobertura",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuloEmisionPolizaAuto.Controllers.ClienteController",
+    "Method": "ObtenerPolizaPorId",
+    "RelativePath": "api/Cliente/obtener/poliza/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuloEmisionPolizaAuto.Controllers.ClienteController",
+    "Method": "ObtenerPolizas",
+    "RelativePath": "api/Cliente/obtener/polizas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
