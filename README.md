@@ -81,6 +81,17 @@ De igual forma encontraras el archivo de la base de datos existente con datos si
 Solo resaturas la bd en tu Sql Server Managemente Studio
 
 Se agrego la consulta para cargar las coberturas, ejecutarlas en SQL Managament Studio
+```
+Use PolizasAuto
+
+INSERT INTO Coberturas (TipoCobertura, MontoCobertura)
+VALUES 
+('Responsabilidad Civil', 5000.00),
+('Daños Materiales', 4000.00),
+('Robo Total', 6200.00),
+('Gastos Médicos Ocupantes', 3000.00);
+
+```
 ---
 
 ## ▶️ Ejecutar el Proyecto
