@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "IyfcB4rCOs4=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Raymond García\\source\\repos\\Modulo-Emision-Poliza-Auto-RG\\ModuloEmisionPolizaAuto\\ModuloEmisionPolizaAutoRG.Application\\ModuloEmisionPolizaAuto.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Raymond García\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "No se encuentra el proyecto \"C:\\Users\\Raymond García\\source\\repos\\Modulo-Emision-Poliza-Auto-RG\\ModuloEmisionPolizaAuto\\ModuloEmisionPolizaAuto.Domain\\ModuloEmisionPolizaAuto.Domain.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
+      "projectPath": "C:\\Users\\Raymond García\\source\\repos\\Modulo-Emision-Poliza-Auto-RG\\ModuloEmisionPolizaAuto\\ModuloEmisionPolizaAutoRG.Application\\ModuloEmisionPolizaAuto.Application.csproj",
+      "filePath": "C:\\Users\\Raymond García\\source\\repos\\Modulo-Emision-Poliza-Auto-RG\\ModuloEmisionPolizaAuto\\ModuloEmisionPolizaAutoRG.Application\\ModuloEmisionPolizaAuto.Application.csproj",
+      "libraryId": "C:\\Users\\Raymond García\\source\\repos\\Modulo-Emision-Poliza-Auto-RG\\ModuloEmisionPolizaAuto\\ModuloEmisionPolizaAuto.Domain\\ModuloEmisionPolizaAuto.Domain.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

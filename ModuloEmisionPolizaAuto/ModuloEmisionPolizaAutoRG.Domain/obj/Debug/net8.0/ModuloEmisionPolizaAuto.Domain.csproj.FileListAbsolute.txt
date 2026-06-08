@@ -1,0 +1,12 @@
+C:\Users\Raymond García\source\repos\Modulo-Emision-Poliza-Auto-RG\ModuloEmisionPolizaAuto\ModuloEmisionPolizaAutoRG.Domain\bin\Debug\net8.0\ModuloEmisionPolizaAuto.Domain.deps.json
+C:\Users\Raymond García\source\repos\Modulo-Emision-Poliza-Auto-RG\ModuloEmisionPolizaAuto\ModuloEmisionPolizaAutoRG.Domain\bin\Debug\net8.0\ModuloEmisionPolizaAuto.Domain.dll
+C:\Users\Raymond García\source\repos\Modulo-Emision-Poliza-Auto-RG\ModuloEmisionPolizaAuto\ModuloEmisionPolizaAutoRG.Domain\bin\Debug\net8.0\ModuloEmisionPolizaAuto.Domain.pdb
+C:\Users\Raymond García\source\repos\Modulo-Emision-Poliza-Auto-RG\ModuloEmisionPolizaAuto\ModuloEmisionPolizaAutoRG.Domain\obj\Debug\net8.0\ModuloEmisionPolizaAuto.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Raymond García\source\repos\Modulo-Emision-Poliza-Auto-RG\ModuloEmisionPolizaAuto\ModuloEmisionPolizaAutoRG.Domain\obj\Debug\net8.0\ModuloEmisionPolizaAuto.Domain.AssemblyInfoInputs.cache
+C:\Users\Raymond García\source\repos\Modulo-Emision-Poliza-Auto-RG\ModuloEmisionPolizaAuto\ModuloEmisionPolizaAutoRG.Domain\obj\Debug\net8.0\ModuloEmisionPolizaAuto.Domain.AssemblyInfo.cs
+C:\Users\Raymond García\source\repos\Modulo-Emision-Poliza-Auto-RG\ModuloEmisionPolizaAuto\ModuloEmisionPolizaAutoRG.Domain\obj\Debug\net8.0\ModuloEmisionPolizaAuto.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Raymond García\source\repos\Modulo-Emision-Poliza-Auto-RG\ModuloEmisionPolizaAuto\ModuloEmisionPolizaAutoRG.Domain\obj\Debug\net8.0\ModuloEmisionPolizaAuto.Domain.sourcelink.json
+C:\Users\Raymond García\source\repos\Modulo-Emision-Poliza-Auto-RG\ModuloEmisionPolizaAuto\ModuloEmisionPolizaAutoRG.Domain\obj\Debug\net8.0\ModuloEmisionPolizaAuto.Domain.dll
+C:\Users\Raymond García\source\repos\Modulo-Emision-Poliza-Auto-RG\ModuloEmisionPolizaAuto\ModuloEmisionPolizaAutoRG.Domain\obj\Debug\net8.0\refint\ModuloEmisionPolizaAuto.Domain.dll
+C:\Users\Raymond García\source\repos\Modulo-Emision-Poliza-Auto-RG\ModuloEmisionPolizaAuto\ModuloEmisionPolizaAutoRG.Domain\obj\Debug\net8.0\ModuloEmisionPolizaAuto.Domain.pdb
+C:\Users\Raymond García\source\repos\Modulo-Emision-Poliza-Auto-RG\ModuloEmisionPolizaAuto\ModuloEmisionPolizaAutoRG.Domain\obj\Debug\net8.0\ref\ModuloEmisionPolizaAuto.Domain.dll

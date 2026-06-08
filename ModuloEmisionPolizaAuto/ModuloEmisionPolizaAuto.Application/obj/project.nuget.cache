@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZSx3B+thFgY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Raymond García\\source\\repos\\Modulo-Emision-Poliza-Auto-RG\\ModuloEmisionPolizaAuto\\ModuloEmisionPolizaAuto.Application\\ModuloEmisionPolizaAuto.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Raymond García\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
