@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Raymond García\\source\\repos\\Modulo-Emision-Poliza-Auto-RG\\ModuloEmisionPolizaAuto\\ModuloEmisionPolizaAuto.Domain\\ModuloEmisionPolizaAuto.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Raymond García\\Documents\\TRABAJO\\PruebaTecnicaLAFISE\\ModuloEmisionPolizaAutoRG\\ModuloEmisionPolizaAuto.Domain\\ModuloEmisionPolizaAuto.Domain.csproj",
       "projectName": "ModuloEmisionPolizaAuto.Domain",
-      "projectPath": "C:\\Users\\Raymond García\\source\\repos\\Modulo-Emision-Poliza-Auto-RG\\ModuloEmisionPolizaAuto\\ModuloEmisionPolizaAuto.Domain\\ModuloEmisionPolizaAuto.Domain.csproj",
+      "projectPath": "C:\\Users\\Raymond García\\Documents\\TRABAJO\\PruebaTecnicaLAFISE\\ModuloEmisionPolizaAutoRG\\ModuloEmisionPolizaAuto.Domain\\ModuloEmisionPolizaAuto.Domain.csproj",
       "packagesPath": "C:\\Users\\Raymond García\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Raymond García\\source\\repos\\Modulo-Emision-Poliza-Auto-RG\\ModuloEmisionPolizaAuto\\ModuloEmisionPolizaAuto.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Raymond García\\Documents\\TRABAJO\\PruebaTecnicaLAFISE\\ModuloEmisionPolizaAutoRG\\ModuloEmisionPolizaAuto.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

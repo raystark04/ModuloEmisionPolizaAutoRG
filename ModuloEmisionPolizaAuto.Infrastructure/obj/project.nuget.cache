@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X13gOngPTgw=",
+  "dgSpecHash": "wbk0r2TPgyA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Raymond García\\source\\repos\\Modulo-Emision-Poliza-Auto-RG\\ModuloEmisionPolizaAuto\\ModuloEmisionPolizaAuto.Infrastructure\\ModuloEmisionPolizaAuto.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Raymond García\\Documents\\TRABAJO\\PruebaTecnicaLAFISE\\ModuloEmisionPolizaAutoRG\\ModuloEmisionPolizaAuto.Infrastructure\\ModuloEmisionPolizaAuto.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Raymond García\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Raymond García\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -3,21 +3,38 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace ModuloEmisionPolizaAuto.Migrations
+namespace ModuloEmisionPolizaAuto.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class Agregandoelrestodemodelos : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "Clientes",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    NombreCompleto = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    NumeroIdentificacion = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
+                    CorreoElectronico = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Telefono = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Clientes", x => x.Id);
+                });
+
             migrationBuilder.CreateTable(
                 name: "Coberturas",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    TipoCobertura = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false)
+                    TipoCobertura = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    MontoCobertura = table.Column<double>(type: "float", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -132,6 +149,9 @@ namespace ModuloEmisionPolizaAuto.Migrations
 
             migrationBuilder.DropTable(
                 name: "Vehiculos");
+
+            migrationBuilder.DropTable(
+                name: "Clientes");
         }
     }
 }

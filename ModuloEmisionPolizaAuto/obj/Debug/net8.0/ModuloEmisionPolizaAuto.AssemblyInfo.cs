@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModuloEmisionPolizaAuto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89c5df4fef470c90ff47eb603b48cb3d5362f375")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3c70646c7c53a63894b21f81e6bae5abf102b2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModuloEmisionPolizaAuto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModuloEmisionPolizaAuto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -5,15 +5,15 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ModuloEmisionPolizaAuto.Data;
+using ModuloEmisionPolizaAuto.Infrastructure.Persistence;
 
 #nullable disable
 
-namespace ModuloEmisionPolizaAuto.Migrations
+namespace ModuloEmisionPolizaAuto.Infrastructure.Migrations
 {
-    [DbContext(typeof(AppDBContext))]
-    [Migration("20260607175910_Agregando el resto de modelos")]
-    partial class Agregandoelrestodemodelos
+    [DbContext(typeof(Dbcontext))]
+    [Migration("20260608040949_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,7 +25,7 @@ namespace ModuloEmisionPolizaAuto.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ModuloEmisionPolizaAuto.Models.Cliente", b =>
+            modelBuilder.Entity("ModuloEmisionPolizaAuto.Domain.Entities.Cliente", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -57,13 +57,16 @@ namespace ModuloEmisionPolizaAuto.Migrations
                     b.ToTable("Clientes", (string)null);
                 });
 
-            modelBuilder.Entity("ModuloEmisionPolizaAuto.Models.Cobertura", b =>
+            modelBuilder.Entity("ModuloEmisionPolizaAuto.Domain.Entities.Cobertura", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<double>("MontoCobertura")
+                        .HasColumnType("float");
 
                     b.Property<string>("TipoCobertura")
                         .IsRequired()
@@ -75,7 +78,7 @@ namespace ModuloEmisionPolizaAuto.Migrations
                     b.ToTable("Coberturas", (string)null);
                 });
 
-            modelBuilder.Entity("ModuloEmisionPolizaAuto.Models.Poliza", b =>
+            modelBuilder.Entity("ModuloEmisionPolizaAuto.Domain.Entities.Poliza", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -106,7 +109,7 @@ namespace ModuloEmisionPolizaAuto.Migrations
                     b.ToTable("Polizas", (string)null);
                 });
 
-            modelBuilder.Entity("ModuloEmisionPolizaAuto.Models.PolizaCobertura", b =>
+            modelBuilder.Entity("ModuloEmisionPolizaAuto.Domain.Entities.PolizaCobertura", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -129,7 +132,7 @@ namespace ModuloEmisionPolizaAuto.Migrations
                     b.ToTable("PolizasCoberturas", (string)null);
                 });
 
-            modelBuilder.Entity("ModuloEmisionPolizaAuto.Models.Vehiculo", b =>
+            modelBuilder.Entity("ModuloEmisionPolizaAuto.Domain.Entities.Vehiculo", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -168,33 +171,33 @@ namespace ModuloEmisionPolizaAuto.Migrations
                     b.ToTable("Vehiculos", (string)null);
                 });
 
-            modelBuilder.Entity("ModuloEmisionPolizaAuto.Models.Poliza", b =>
+            modelBuilder.Entity("ModuloEmisionPolizaAuto.Domain.Entities.Poliza", b =>
                 {
-                    b.HasOne("ModuloEmisionPolizaAuto.Models.Vehiculo", null)
+                    b.HasOne("ModuloEmisionPolizaAuto.Domain.Entities.Vehiculo", null)
                         .WithMany()
                         .HasForeignKey("VehiculoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("ModuloEmisionPolizaAuto.Models.PolizaCobertura", b =>
+            modelBuilder.Entity("ModuloEmisionPolizaAuto.Domain.Entities.PolizaCobertura", b =>
                 {
-                    b.HasOne("ModuloEmisionPolizaAuto.Models.Cobertura", null)
+                    b.HasOne("ModuloEmisionPolizaAuto.Domain.Entities.Cobertura", null)
                         .WithMany()
                         .HasForeignKey("CoberturaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ModuloEmisionPolizaAuto.Models.Poliza", null)
+                    b.HasOne("ModuloEmisionPolizaAuto.Domain.Entities.Poliza", null)
                         .WithMany()
                         .HasForeignKey("PolizaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("ModuloEmisionPolizaAuto.Models.Vehiculo", b =>
+            modelBuilder.Entity("ModuloEmisionPolizaAuto.Domain.Entities.Vehiculo", b =>
                 {
-                    b.HasOne("ModuloEmisionPolizaAuto.Models.Cliente", null)
+                    b.HasOne("ModuloEmisionPolizaAuto.Domain.Entities.Cliente", null)
                         .WithMany()
                         .HasForeignKey("ClienteId")
                         .OnDelete(DeleteBehavior.Cascade)

@@ -6,7 +6,6 @@ using ModuloEmisionPolizaAuto.Application.Handlers.Commands.ObtenerCliente;
 using ModuloEmisionPolizaAuto.Application.Handlers.Commands.ObtenerCobertura;
 using ModuloEmisionPolizaAuto.Application.Handlers.Commands.ObtenerPoliza;
 using ModuloEmisionPolizaAuto.Application.Handlers.Commands.ObtenerPolizaId;
-using ModuloEmisionPolizaAuto.Data;
 using ModuloEmisionPolizaAuto.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -27,7 +26,7 @@ builder.Services.AddValidatorsFromAssemblyContaining<CrearPolizaValidator>();
 
 
 // Configurar la cadena de conexión a la base de datos
-builder.Services.AddDbContext<AppDBContext>(options => 
+builder.Services.AddDbContext<DbContext>(options => 
 { 
     options.UseSqlServer(builder.Configuration.GetConnectionString("CadenaConexionSQL"));
 });
