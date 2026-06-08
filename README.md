@@ -62,7 +62,11 @@ o dejarla a como esta
 Abrir VS Studio y abrir la **Consola del Administrador de Paquetes** y ejecutar:
 
 ```powershell
-Update-Database
+Add-Migration InitialCreate -Context Dbcontext -Project ModuloEmisionPolizaAuto.Infrastructure -StartupProject ModuloEmisionPolizaAuto
+
+luego
+
+Update-Database -Context Dbcontext -Project ModuloEmisionPolizaAuto.Infrastructure -StartupProject ModuloEmisionPolizaAuto
 ```
 
 O usando CLI de .NET:
@@ -74,7 +78,9 @@ dotnet ef database update
 Esto creará automáticamente la base de datos y todas las tablas necesarias.
 
 De igual forma encontraras el archivo de la base de datos existente con datos si quieres realizar las pruebas de manera mas rapida
-Solo restauras la bd en tu Sql Server Managemente Studio
+Solo resaturas la bd en tu Sql Server Managemente Studio
+
+Se agrego la consulta para cargar las coberturas, ejecutarlas en SQL Managament Studio
 ---
 
 ## ▶️ Ejecutar el Proyecto
@@ -154,6 +160,7 @@ GET /api/cliente/obtener/poliza/{id}
 ```
 
 ---
+
 ## 👨‍💻 Autor
 
-Raymond Anotnio García Espinoza
+Raymond García
